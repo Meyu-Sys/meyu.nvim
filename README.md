@@ -80,7 +80,7 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 
 
 ```sh
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/meyu-sys/meyu.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 </details>
@@ -104,7 +104,7 @@ git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HO
   </details>
 
 ```
-git clone https://github.com/nvim-lua/kickstart.nvim.git $env:USERPROFILE\AppData\Local\nvim\
+git clone https://github.com/meyu-sys/meyu.nvim.git $env:USERPROFILE\AppData\Local\nvim\
 ```
 
 </details>
