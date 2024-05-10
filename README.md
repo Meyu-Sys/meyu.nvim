@@ -114,3 +114,4 @@ git clone https://github.com/meyu-sys/meyu.nvim.git $env:USERPROFILE\AppData\Loc
 [The Only Video You Need to Get Started with Neovim](https://youtu.be/m8C0Cq9Uv9o)
 
 
+Plugins

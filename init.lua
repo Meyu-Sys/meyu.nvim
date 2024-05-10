@@ -164,6 +164,9 @@ vim.opt.scrolloff = 10
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
+--  Nvim-tree
+vim.keymap.set('n', '<leader>t', ':NvimTreeToggle<CR>', { desc = 'Open or close Nvim-[t]ree' })
+
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
