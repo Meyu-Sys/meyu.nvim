@@ -165,7 +165,7 @@ vim.opt.scrolloff = 10
 --  See `:help vim.keymap.set()`
 
 --  Nvim-tree
-vim.keymap.set('n', '<leader>tf', ':NvimTreeToggle<CR>', { desc = '[T]oggle [f]ile tree' })
+vim.keymap.set('n', '<leader>te', ':NvimTreeToggle<CR>', { desc = '[T]oggle nvim-tre[e]' })
 
 -- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true
@@ -846,7 +846,7 @@ require('lazy').setup({
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
     opts = {
-      ensure_installed = { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'vim', 'vimdoc' },
+      ensure_installed = { 'bash', 'c', 'diff', 'html', 'lua', 'luadoc', 'markdown', 'vim', 'vimdoc', 'rust' },
       -- Autoinstall languages that are not installed
       auto_install = true,
       highlight = {
