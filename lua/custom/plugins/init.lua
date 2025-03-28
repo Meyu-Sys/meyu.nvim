@@ -3,5 +3,4 @@
 --
 -- See the kickstart.nvim README for more information
 
-vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { desc = '[E]xplorer' })
 return {}
